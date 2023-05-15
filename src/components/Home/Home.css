@@ -1,0 +1,48 @@
+@import url("../fonts/fonts.css");
+.home-content {
+  background-color: #edd1b4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+}
+.home-text {
+  font-size: 1.1rem;
+  padding: 20px;
+  margin-left: 20px;
+  color: #64401f;
+  width: 70%;
+}
+.shape {
+  width: 80%;
+  border-radius: 1.5rem;
+  background-color: #d9b996;
+  height: 5px;
+}
+.contact-button {
+  background-color: #eeb1a8;
+  border-radius: 1.5rem;
+  padding: 15px 35px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.contact-button:hover {
+  background-color: #e49386;
+}
+.contact-button a {
+  text-decoration: none;
+  color: #64401f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

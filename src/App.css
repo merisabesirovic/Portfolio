@@ -13,6 +13,23 @@
   }
 }
 
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: 40vw auto;
+  grid-template-areas: "<welcome>|<home>";
+  gap: 0;
+}
+.welcome-container {
+  grid-area: welcome;
+}
+.home-container {
+  grid-area: home;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

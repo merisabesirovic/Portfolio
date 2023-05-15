@@ -1,14 +1,52 @@
 @import url("../fonts/fonts.css");
-welcome-container {
-  width: 40%;
-  background-color: #e9bc8b;
+.welcome-container {
+  width: 40vw;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(233, 188, 139, 1) 75%,
+    rgba(233, 188, 139, 1) 75%
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: fixed;
 }
+@keyframes slide-top-once {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .myName {
   color: #1e1815;
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 2.5rem;
+  margin-bottom: -1px;
+  animation: slide-top-once 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
+
+.welcome-to {
+  margin-top: -1px;
+  margin-bottom: -3px;
+  color: #faf9e2;
+  font-weight: 700;
+  font-size: 3rem;
+  animation: slide-top-once 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
 .myPhoto {
+  margin-top: 5px;
   border-radius: 50%;
+  width: 60%;
 }
