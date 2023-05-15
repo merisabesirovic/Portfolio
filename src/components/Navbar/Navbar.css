@@ -1,0 +1,29 @@
+@import url("../fonts/fonts.css");
+nav {
+  width: 95%;
+  background-color: #c99a5b;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  height: fit-content;
+  position: fixed;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  padding-right: 30px;
+}
+nav ul li a {
+  color: #faf2e9;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px;
+}
