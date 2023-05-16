@@ -20,10 +20,23 @@ nav ul {
   list-style: none;
   padding-right: 30px;
 }
-nav ul li a {
+nav ul li .btn {
   color: #1e1815;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   text-decoration: none;
   padding: 10px;
+  border: none;
+  background-color: #c99a5b;
+}
+nav ul li .btn:hover {
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #64401f;
+  border-radius: 1.5rem;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
 }

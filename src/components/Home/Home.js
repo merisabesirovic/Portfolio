@@ -9,9 +9,6 @@ export default function Home() {
         Passionate about creating engaging user experiences and crafting
         beautiful websites. Let's build something incredible together!
       </p>
-      <button className="contact-button">
-        <a href="#">CONTACT ME ➨</a>
-      </button>
     </div>
   );
 }

@@ -1,15 +1,27 @@
 .about-container {
   height: 100vh;
-  background-color: #64401f;
-  display: flex;
-  justify-content: left;
+  background-image: url("/src/components/Welcome/portfolioImage/WhatsApp\ Image\ 2023-05-16\ at\ 13.41.30.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
   align-items: center;
   font-family: "Poppins", sans-serif;
+}
+.text-about-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .about-title {
   font-weight: 800;
   color: beige;
+  font-size: 3.5rem;
 }
-p {
+.about-text {
+  width: 50%;
+  text-align: justify;
   font-size: 1rem;
+  margin: 20px;
+  color: wheat;
 }

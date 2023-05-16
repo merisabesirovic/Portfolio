@@ -5,18 +5,25 @@ export default function Navbar({ handleScrollToRef }) {
     <nav>
       <ul className="navbar">
         <li>
-          <button onClick={() => handleScrollToRef("homeRef")}>Home</button>
+          <button className="btn" onClick={() => handleScrollToRef("homeRef")}>
+            Home
+          </button>
         </li>
         <li>
-          <button onClick={() => handleScrollToRef("aboutRef")}>About</button>
+          <button className="btn" onClick={() => handleScrollToRef("aboutRef")}>
+            About
+          </button>
         </li>
         <li>
-          <button onClick={() => handleScrollToRef("contactRef")}>
+          <button
+            className="btn"
+            onClick={() => handleScrollToRef("contactRef")}
+          >
             Contact
           </button>
         </li>
         <li>
-          <button onClick={() => handleScrollToRef("cvRef")}>
+          <button className="btn" onClick={() => handleScrollToRef("cvRef")}>
             Download CV
           </button>
         </li>
