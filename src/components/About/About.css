@@ -1,0 +1,15 @@
+.about-container {
+  height: 100vh;
+  background-color: #64401f;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.about-title {
+  font-weight: 800;
+  color: beige;
+}
+p {
+  font-size: 1rem;
+}

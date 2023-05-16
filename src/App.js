@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Welcome from "./components/Welcome/Welcome";
 import Home from "./components/Home/Home";
+import About from "./components/About/About";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
         <div className="welcome-container">
           <Welcome />
         </div>
-        <div className="home-container">
+        <div className="scrollContainer">
           <Home />
+          <About />
         </div>
       </div>
     </div>

@@ -21,14 +21,17 @@
 .content-container {
   display: grid;
   grid-template-columns: 40vw auto;
-  grid-template-areas: "<welcome>|<home>";
+  grid-template-rows: auto;
+  grid-template-areas: "<welcome>|<scroll>";
   gap: 0;
 }
 .welcome-container {
   grid-area: welcome;
 }
-.home-container {
-  grid-area: home;
+.scrollContainer {
+  grid-area: scroll;
+  display: flex;
+  flex-direction: column;
 }
 .App-header {
   background-color: #282c34;

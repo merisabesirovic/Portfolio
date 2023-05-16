@@ -1,20 +1,24 @@
 import React from "react";
 import "./Navbar.css";
-export default function Navbar() {
+export default function Navbar({ handleScrollToRef }) {
   return (
     <nav>
       <ul className="navbar">
         <li>
-          <a href="#">Home</a>
+          <button onClick={() => handleScrollToRef("homeRef")}>Home</button>
         </li>
         <li>
-          <a href="#">About</a>
+          <button onClick={() => handleScrollToRef("aboutRef")}>About</button>
         </li>
         <li>
-          <a href="#">Contacts</a>
+          <button onClick={() => handleScrollToRef("contactRef")}>
+            Contact
+          </button>
         </li>
         <li>
-          <a href="#">Download CV</a>
+          <button onClick={() => handleScrollToRef("cvRef")}>
+            Download CV
+          </button>
         </li>
       </ul>
     </nav>
