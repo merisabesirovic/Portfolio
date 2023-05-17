@@ -8,36 +8,75 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-const gmail = <FontAwesomeIcon icon={faEnvelope} />;
-const github = <FontAwesomeIcon icon={faGithub} />;
-const linkedin = <FontAwesomeIcon icon={faLinkedin} />;
-const instagram = <FontAwesomeIcon icon={faInstagram} />;
+const iconStyle = {
+  fontSize: "2rem",
+  transition: "transform 0.3s ease",
+};
+const hoverStyle = {
+  transform: "scale(1.2)",
+};
+
+const gmail = (
+  <FontAwesomeIcon className="hover-icon" icon={faEnvelope} style={iconStyle} />
+);
+const github = (
+  <FontAwesomeIcon className="hover-icon" icon={faGithub} style={iconStyle} />
+);
+const linkedin = (
+  <FontAwesomeIcon className="hover-icon" icon={faLinkedin} style={iconStyle} />
+);
+const instagram = (
+  <FontAwesomeIcon
+    className="hover-icon"
+    icon={faInstagram}
+    style={iconStyle}
+  />
+);
 
 export default function Contact() {
   return (
     <div className="contact-container">
       <h1 className="contact-title">Contact</h1>
-      <p className="smallText">Let's talk</p>
-      <p>
+      <p className="biggerText">
         Feel free to get in touch with me. You can reach me through email or
         connect with me on social media.
       </p>
       <ul className="contact-list">
         <li className="list-item">
-          <a href="mailto:besiroviccm@gmail.com">{gmail}</a>
+          <a className="icon" href="mailto:besiroviccm@gmail.com">
+            {gmail}
+          </a>
         </li>
         <li className="list-item">
-          <a href="https://github.com/merisabesirovic" target="blank">
+          <a
+            className="icon"
+            href="https://github.com/merisabesirovic"
+            target="blank"
+          >
             {github}
           </a>
         </li>
         <li className="list-item">
-          <a href="">{linkedin}</a>
+          <a
+            className="icon"
+            href="https://www.linkedin.com/in/merisa-be%C5%A1irovi%C4%87-6195b7276/"
+          >
+            {linkedin}
+          </a>
         </li>
         <li className="list-item">
-          <a href="">{instagram}</a>
+          <a
+            className="icon"
+            href="https://instagram.com/01101101_01100010?igshid=NTc4MTIwNjQ2YQ=="
+          >
+            {instagram}
+          </a>
         </li>
       </ul>
+      <p className="biggerText">
+        I'm excited to connect with you and discuss any opportunities or
+        collaborations. Don't hesitate to reach out!
+      </p>
     </div>
   );
 }
