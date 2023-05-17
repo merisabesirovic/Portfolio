@@ -19,9 +19,9 @@ body {
     rgb(238, 174, 202) 0%,
     rgb(233, 188, 139) 25%,
     rgb(233, 188, 139) 51%,
-    #ff357f 100%
+    #f780ab 100%
   );
-  animation: AnimateBG 10s ease infinite;
+  animation: AnimateBG 7s ease infinite;
   z-index: -1;
 }
 

@@ -5,15 +5,18 @@
   background-repeat: no-repeat;
   align-items: center;
   font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 .text-about-container {
-  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 35px;
 }
 .about-title {
+  margin-top: 40px;
   font-weight: 800;
   color: beige;
   font-size: 3.5rem;

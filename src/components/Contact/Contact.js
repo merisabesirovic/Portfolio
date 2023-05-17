@@ -12,9 +12,6 @@ const iconStyle = {
   fontSize: "2rem",
   transition: "transform 0.3s ease",
 };
-const hoverStyle = {
-  transform: "scale(1.2)",
-};
 
 const gmail = (
   <FontAwesomeIcon className="hover-icon" icon={faEnvelope} style={iconStyle} />

@@ -1,3 +1,4 @@
+import React, { useRef } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Welcome from "./components/Welcome/Welcome";
@@ -6,17 +7,53 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 
 function App() {
+  const homeRef = useRef(null);
+  const aboutRef = useRef(null);
+  const contactRef = useRef(null);
+  const projectsRef = useRef(null);
+  const cvRef = useRef(null);
+
+  const handleScrollToRef = (refName) => {
+    const ref = getRefByName(refName);
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const getRefByName = (refName) => {
+    switch (refName) {
+      case "homeRef":
+        return homeRef;
+      case "aboutRef":
+        return aboutRef;
+      case "contactRef":
+        return contactRef;
+      case "projectsRef":
+        return projectsRef;
+      case "cvRef":
+        return cvRef;
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className="app-container">
-      <Navbar />
+      <Navbar handleScrollToRef={handleScrollToRef} />
       <div className="content-container">
         <div className="welcome-container">
           <Welcome />
         </div>
         <div className="scrollContainer">
-          <Home />
-          <About />
-          <Contact></Contact>
+          <div ref={homeRef}>
+            <Home />
+          </div>
+          <div ref={aboutRef}>
+            <About />
+          </div>
+          <div ref={contactRef}>
+            <Contact />
+          </div>
         </div>
       </div>
     </div>

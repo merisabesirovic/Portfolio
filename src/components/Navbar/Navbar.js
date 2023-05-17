@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+
 export default function Navbar({ handleScrollToRef }) {
   return (
     <nav>
@@ -23,7 +24,19 @@ export default function Navbar({ handleScrollToRef }) {
           </button>
         </li>
         <li>
-          <button className="btn" onClick={() => handleScrollToRef("cvRef")}>
+          <button
+            className="btn"
+            onClick={() => handleScrollToRef("projectsRef")}
+          >
+            Projects
+          </button>
+        </li>
+        <li>
+          <button
+            style={{ borderBottom: "1px solid #1e1815" }}
+            className="btn"
+            onClick={() => handleScrollToRef("cvRef")}
+          >
             Download CV
           </button>
         </li>
