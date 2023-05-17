@@ -1,0 +1,13 @@
+.project-img {
+  width: 45%;
+  justify-self: center;
+  align-self: center;
+}
+.projects-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  gap: 20px;
+  margin: 0 auto;
+}

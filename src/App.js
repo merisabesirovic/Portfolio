@@ -5,6 +5,7 @@ import Welcome from "./components/Welcome/Welcome";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   const homeRef = useRef(null);
@@ -54,6 +55,7 @@ function App() {
           <div ref={contactRef}>
             <Contact />
           </div>
+          <Projects></Projects>
         </div>
       </div>
     </div>
