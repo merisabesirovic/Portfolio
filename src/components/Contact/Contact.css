@@ -1,12 +1,13 @@
 @import url("../fonts/fonts.css");
 .contact-container {
-  height: 30vw;
+  height: fit-content;
   background-color: #be9e7c;
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 .contact-title {
   font-weight: 600;
@@ -15,8 +16,10 @@
 }
 .biggerText {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: white;
+  margin-right: auto;
+  margin-left: auto;
 }
 .contact-list {
   display: flex;

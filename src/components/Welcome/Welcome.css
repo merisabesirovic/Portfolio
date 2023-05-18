@@ -1,4 +1,5 @@
 @import url("../fonts/fonts.css");
+
 body {
   margin: 0;
   padding: 0;
@@ -46,6 +47,15 @@ body {
   align-items: center;
   font-family: "Poppins", sans-serif;
   position: relative;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .welcome-container {
+    width: 100%;
+    height: 100vh;
+    position: static;
+  }
 }
 
 @keyframes slide-top-once {
@@ -81,4 +91,10 @@ body {
   margin-top: 5px;
   border-radius: 50%;
   width: 60%;
+}
+
+@media (max-width: 768px) {
+  .myPhoto {
+    width: 80%;
+  }
 }

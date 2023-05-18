@@ -1,4 +1,7 @@
+@import url("../fonts/fonts.css");
+
 .title-project {
+  margin-top: -10px;
   font-size: 24px;
   margin-bottom: 30px;
   background-color: #d2b48c;
@@ -14,11 +17,17 @@
   gap: 30px;
 }
 
+.big-container {
+  background-color: #f4e8d9;
+  padding-bottom: 30px;
+}
+
 .project-img {
   width: 300px;
   height: 250px;
   object-fit: cover;
   border-radius: 8px;
+  transition: transform 0.3s ease;
 }
 
 .explanation {
@@ -32,33 +41,48 @@
   color: inherit;
 }
 
-body {
-  background-color: #f4e8d9;
-}
 .image-overlay {
   position: relative;
+  border-radius: 8px;
+}
+
+.project-img {
+  transition: transform 0.3s ease;
+}
+
+.image-overlay:hover .project-img {
+  transform: scale(1.05);
 }
 
 .image-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.6); /* Adjust the transparency here */
+  background-color: rgba(66, 28, 28, 0.6);
   color: #fff;
   padding: 10px;
   border-radius: 4px;
   font-size: 16px;
-  height: 250px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
 }
+
 @media (max-width: 768px) {
   .projects-first {
     margin-right: 0;
   }
 
   .project-img {
-    width: 100%;
+    width: 80%;
     height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-overlay:hover .project-img {
+    transform: none;
   }
 }
