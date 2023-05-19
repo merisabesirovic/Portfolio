@@ -38,7 +38,7 @@ export default function Projects() {
             <div className="image-text">
               <b>Guess Number Project</b>
               <br></br>
-              Fun javascript game where you should guess given number.
+              Fun javascript game where you can guess given number.
             </div>
           </div>
         </a>
