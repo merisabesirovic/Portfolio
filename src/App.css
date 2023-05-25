@@ -121,5 +121,7 @@
 @media (max-width: 768px) {
   .content-container {
     display: block;
+    position: static;
+    overflow-x: hidden;
   }
 }
