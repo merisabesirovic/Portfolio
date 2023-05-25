@@ -82,7 +82,7 @@ body {
 .welcome-to {
   margin-top: -1px;
   margin-bottom: -3px;
-  color: #faf9e2;
+  color: #d6d013;
   font-weight: 700;
   font-size: 3rem;
   animation: slide-top-once 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
