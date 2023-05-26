@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.be7d28b9.css",
-    "main.js": "/static/js/main.c8feaf6f.js",
+    "main.css": "/static/css/main.0fcdec44.css",
+    "main.js": "/static/js/main.4d25f461.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/BridTv.png": "/static/media/BridTv.91c555376e432792f4b0.png",
     "static/media/cvPhoto.JPEG": "/static/media/cvPhoto.b539a228c1f3e4aa1b67.JPEG",
@@ -12,12 +12,12 @@
     "static/media/toDo.png": "/static/media/toDo.8e7d538518d91db7d797.png",
     "static/media/WhatsApp Image 2023-05-16 at 13.41.30.jpeg": "/static/media/WhatsApp Image 2023-05-16 at 13.41.30.7227ecdaf889fb1e4990.jpeg",
     "index.html": "/index.html",
-    "main.be7d28b9.css.map": "/static/css/main.be7d28b9.css.map",
-    "main.c8feaf6f.js.map": "/static/js/main.c8feaf6f.js.map",
+    "main.0fcdec44.css.map": "/static/css/main.0fcdec44.css.map",
+    "main.4d25f461.js.map": "/static/js/main.4d25f461.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be7d28b9.css",
-    "static/js/main.c8feaf6f.js"
+    "static/css/main.0fcdec44.css",
+    "static/js/main.4d25f461.js"
   ]
 }
