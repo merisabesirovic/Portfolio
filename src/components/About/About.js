@@ -22,41 +22,28 @@ export default function About() {
       <div className="shape" style={{ marginTop: "30px" }}></div>
       <h1 className="about-title">My core services and capabilities</h1>
       <div className="skills">
-        <div className="skilovi">
-          <p
-            className="skills-text"
-            style={{ borderRight: "1px solid beige", paddingRight: "20px" }}
-          >
-            HTML/CSS: Proficiency in writing semantic HTML markup and styling
-            with CSS, including CSS frameworks (e.g., Bootstrap, Tailwind CSS).
-            JavaScript: Strong knowledge of JavaScript and understanding of DOM
-            manipulation, asynchronous programming, and ES6+ features. Frontend
-            Frameworks/Libraries: Experience with popular frontend frameworks
-            like React.
-          </p>
-          <p className="skills-text">
-            UI/UX Principles: Understanding of user interface (UI) and user
-            experience (UX) principles, and ability to create visually appealing
-            and user-friendly interfaces.
-          </p>
-        </div>
-        <div className="skilovi">
-          <p
-            className="skills-text"
-            style={{
-              borderRight: "1px solid beige",
-              paddingRight: "20px",
-            }}
-          >
-            Responsive Web Design: Ability to create websites that adapt and
-            function well on different devices and screen sizes.
-          </p>
-          <p className="skills-text">
-            Performance Optimization: Knowledge of techniques for optimizing
-            frontend performance, such as code splitting, lazy loading, and
-            caching.
-          </p>
-        </div>
+        <p className="skills-text">
+          HTML/CSS: Proficiency in writing semantic HTML markup and styling with
+          CSS, including CSS frameworks (e.g., Bootstrap, MUI).
+        </p>
+        <p className="skills-text">
+          UI/UX Principles: Understanding of user interface (UI) and user
+          experience (UX) principles, and ability to create visually appealing
+          interfaces.
+        </p>
+        <p className="skills-text">
+          Responsive Web Design: Ability to create websites that adapt and
+          function well on different devices and screen sizes.
+        </p>
+        <p className="skills-text">
+          JavaScript: I have a strong proficiency in JavaScript, utilizing its
+          features and frameworks to develop interactive web applications..
+        </p>
+        <p className="skills-text">
+          React: I possess a comprehensive understanding of React and its
+          ecosystem, leveraging its component-based architecture to build
+          scalable and responsive user interfaces.
+        </p>
       </div>
     </div>
   );

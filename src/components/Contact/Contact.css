@@ -18,8 +18,8 @@
   font-weight: 400;
   font-size: 0.8rem;
   color: white;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 20px;
+  text-align: center;
 }
 .contact-list {
   display: flex;
@@ -35,6 +35,9 @@
   list-style: none;
   transition: transform 0.3s ease;
 }
-.hover-icon:hover {
+.iconStyle {
+  padding: 5px;
+}
+.iconStyle:hover {
   transform: scale(1.2) rotate(20deg) translateX(5px) translateY(-5px);
 }
