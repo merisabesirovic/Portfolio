@@ -37,10 +37,11 @@
   margin-bottom: 40px;
   margin: 20px;
   text-align: center;
+  font-size: 0.9rem;
 }
 
 .skills-text {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin: 15px 0;
   color: beige;
   line-height: 1.6;
@@ -55,5 +56,25 @@
 .skills-text .material-icons {
   margin-right: 8px;
   color: beige;
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .about-container {
+    padding: 20px;
+  }
+
+  .text-about-container {
+    margin-top: 20px;
+  }
+
+  .about-title {
+    margin-top: 20px;
+    font-size: 2.5rem;
+  }
+
+  .about-text {
+    width: 80%;
+    font-size: 0.7rem;
+    margin: 10px;
+  }
 }
