@@ -46,6 +46,7 @@ export default function Projects() {
               Explore the cosmos with my space app! Read space news, marvel at
               Mars photos, learn about planets, and see what the Hubble
               Telescope is capturing right now.
+              <br></br> <p>(Only Desktop version available)</p>
             </div>
           </div>
         </a>
@@ -64,6 +65,7 @@ export default function Projects() {
               <br></br>
               React E-Commerce Demo: A simple React project with Material-UI
               showcasing a variety of random items in a virtual shop.
+              <br></br> <p>(Only Desktop version available)</p>
             </div>
           </div>
         </a>
