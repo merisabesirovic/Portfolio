@@ -1,8 +1,8 @@
 import React from "react";
-import toDo from "./assets for project/toDo.png";
-import BridTv from "./assets for project/BridTv.png";
-import GuessNumber from "./assets for project/guessNumber.png";
-import ReactProject from "./assets for project/reactProject.png";
+import mojNp from "./assets for project/mojnpslika.png";
+import licence from "./assets for project/regapp.png";
+import Space from "./assets for project/explore-space.png";
+import Shopping from "./assets for project/project-shopping.png";
 import "./Projects.css";
 
 export default function Projects() {
@@ -11,45 +11,78 @@ export default function Projects() {
       <h1 className="title-project">Here are some of my projects</h1>
       <div className="projects-container">
         <div className="projects-first">
-          <a href="nesto" className="img-href">
+          <a
+            href="https://mojnovipazar.info/"
+            Using
+            target="_blank"
+            without
+            rel="noreferrer"
+            className="img-href"
+          >
             <div className="image-overlay">
-              <img src={toDo} alt="project" className="project-img" />
+              <img src={mojNp} alt="project" className="project-img" />
               <div className="image-text">
-                <b>To-do List Project</b>
-                <br></br>
-                This is my first DOM project, To-do list, where you can add,
-                cross, filter and delete elements.
+                <b>Moj Novi Pazar</b> <br></br>
+                Designed a town guide app for tourists, highlighting the best
+                local spots for dining, sightseeing, and exploration.
               </div>
             </div>
           </a>
         </div>
-        <a href="nesto" className="img-href">
+
+        <a
+          href="https://dreamy-melba-45b5d1.netlify.app/"
+          Using
+          target="_blank"
+          without
+          rel="noreferrer"
+          className="img-href"
+        >
           <div className="image-overlay">
-            <img src={BridTv} alt="project" className="project-img" />
+            <img src={Space} alt="project" className="project-img" />
             <div className="image-text">
-              <b>BridTv Project</b> <br></br>
-              App for daily news, with most recent informations.
+              <b>Explore space-app</b>
+              <br></br>
+              Explore the cosmos with my space app! Read space news, marvel at
+              Mars photos, learn about planets, and see what the Hubble
+              Telescope is capturing right now.
             </div>
           </div>
         </a>
-        <a href="nesto" className="img-href">
+        <a
+          href="https://funny-malasada-c9091a.netlify.app/"
+          Using
+          target="_blank"
+          without
+          rel="noreferrer"
+          className="img-href"
+        >
           <div className="image-overlay">
-            <img src={GuessNumber} alt="project" className="project-img" />
+            <img src={Shopping} alt="project" className="project-img" />
             <div className="image-text">
-              <b>Guess Number Project</b>
+              <b>E-commerce app</b>
               <br></br>
-              Fun javascript game where you can guess given number.
+              React E-Commerce Demo: A simple React project with Material-UI
+              showcasing a variety of random items in a virtual shop.
             </div>
           </div>
         </a>
-        <a href="nesto" className="img-href">
+        <a
+          href="https://licence-app.pages.dev/"
+          Using
+          target="_blank"
+          without
+          rel="noreferrer"
+          className="img-href"
+        >
           <div className="image-overlay">
-            <img src={ReactProject} alt="project" className="project-img" />
+            <img src={licence} alt="project" className="project-img" />
             <div className="image-text">
-              <b>Booking Project</b>
+              <b>Licence and registration calculator</b>
               <br></br>
-              App where you can register, login and logout, where you can see
-              other profiles on this app, and where you can book a hotel.
+              Crafted specifically for professionals in the field, this app
+              accelerates vehicle registration workflows by swiftly computing
+              accurate prices for cars.
             </div>
           </div>
         </a>
