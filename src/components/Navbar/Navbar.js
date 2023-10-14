@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import Download from "../../downloadFile/CV-Merisa Besirovic.pdf";
+import Download from "../../downloadFile/Merisa CV.pdf";
 
 export default function Navbar({ handleScrollToRef }) {
   return (
