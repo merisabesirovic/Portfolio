@@ -6,11 +6,11 @@ export default function About() {
       <div className="text-about-container">
         <h1 className="about-title">About me</h1>
         <p className="about-text">
-          I am a dedicated and creative frontend developer, constantly seeking
-          opportunities to learn and grow.
+          I am a dedicated and creative, constantly seeking opportunities to
+          learn and grow.
         </p>
         <p className="about-text">
-          Also, I am a software engineering student with a good academic
+          Also , I am a software engineering student with a good academic
           foundation in software development principles, including data
           structures, algorithms, and object-oriented programming. Furthermore,
           I have actively participated in intensive IT bootcamps to acquire
@@ -45,6 +45,11 @@ export default function About() {
           React: I possess a comprehensive understanding of React and its
           ecosystem, leveraging its component-based architecture to build
           scalable and responsive user interfaces.
+        </p>
+        <p className="skills-text">
+          I've gained foundational knowledge in C and C++ during my university
+          studies, laying the groundwork for understanding programming
+          principles and basic software development concepts.
         </p>
       </div>
     </div>

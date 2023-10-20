@@ -87,3 +87,11 @@
     transform: none;
   }
 }
+.txt {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: rgb(78, 66, 38);
+}
+a {
+  text-decoration: none;
+}
