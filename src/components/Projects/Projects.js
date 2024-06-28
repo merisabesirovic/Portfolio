@@ -29,6 +29,8 @@ export default function Projects() {
             </div>
           </a>
           <a
+            without
+            rel="noreferrer"
             target="_blank"
             className="img-href"
             href="https://academy2-5.moonstruck.io/"
