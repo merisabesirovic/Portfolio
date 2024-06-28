@@ -10,8 +10,8 @@ export default function About() {
           learn and grow.
         </p>
         <p className="about-text">
-          Also , I am a software engineering student with a good academic
-          foundation in software development principles, including data
+          Also , I am a 3rd year software engineering student with a good
+          academic foundation in software development principles, including data
           structures, algorithms, and object-oriented programming. Furthermore,
           I have actively participated in intensive IT bootcamps to acquire
           practical, hands-on experience in specific technologies and
@@ -32,10 +32,7 @@ export default function About() {
           experience (UX) principles, and ability to create visually appealing
           interfaces.
         </p>
-        <p className="skills-text">
-          Responsive Web Design: Ability to create websites that adapt and
-          function well on different devices and screen sizes.
-        </p>
+
         <p className="skills-text">
           JavaScript/TypeScript: I have a strong proficiency in JavaScript,
           utilizing its features and frameworks to develop interactive web
@@ -47,9 +44,16 @@ export default function About() {
           scalable and responsive user interfaces.
         </p>
         <p className="skills-text">
-          I've gained foundational knowledge in C and C++ during my university
-          studies, laying the groundwork for understanding programming
-          principles and basic software development concepts.
+          Web3 Development: Acquired knowledge in Web3 technologies, including
+          tools such as WAGMI.
+        </p>
+
+        <p className="skills-text">
+          During my university studies, I developed a diverse set of skills in
+          C, C++, C#, SQL, and even hardware-oriented VHDL, laying a strong
+          foundation for understanding programming principles and basic software
+          development concepts. However, my current interest lies in frontend
+          development.
         </p>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import mojNp from "./assets for project/mojnpslika.png";
+import web25 from "./assets for project/web2.5.png";
 import "./Projects.css";
 
 export default function Projects() {
@@ -27,6 +28,20 @@ export default function Projects() {
               </div>
             </div>
           </a>
+          <a
+            target="_blank"
+            className="img-href"
+            href="https://academy2-5.moonstruck.io/"
+          >
+            <div className="image-overlay">
+              <img src={web25} alt="project" className="project-img" />
+              <div className="image-text">
+                <b>Web 2.5 academy</b> <br></br>I was working on frontend for
+                this project. This is platform for educational purpose for Web
+                2.5 academy.
+              </div>
+            </div>
+          </a>
         </div>
         <div>
           <ul>
@@ -47,7 +62,7 @@ export default function Projects() {
               </a>
             </li>
             <li className="txt">
-              Teaching kids at{" "}
+              Teaching at{" "}
               <a
                 href="https://centarnit.com/en/"
                 rel="noreferrer"
