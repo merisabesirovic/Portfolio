@@ -13,11 +13,11 @@ export default function About() {
           Also , I am a 3rd year software engineering student with a good
           academic foundation in software development principles, including data
           structures, algorithms, and object-oriented programming. Furthermore,
-          I have actively participated in intensive IT bootcamps to acquire
-          practical, hands-on experience in specific technologies and
-          frameworks. This blend of formal education and immersive training
-          equips me with a well-rounded skill set to proficiently address
-          intricate software engineering challenges.
+          I have actively participated in intensive IT bootcamps, competitions
+          and hackatons to acquire practical, hands-on experience in specific
+          technologies and frameworks. This blend of formal education and
+          immersive training equips me with a well-rounded skill set to
+          proficiently address intricate software engineering challenges.
         </p>
       </div>
       <div className="shape" style={{ marginTop: "30px" }}></div>
@@ -50,10 +50,10 @@ export default function About() {
 
         <p className="skills-text">
           During my university studies, I developed a diverse set of skills in
-          C, C++, C#, SQL, and even hardware-oriented VHDL, laying a strong
-          foundation for understanding programming principles and basic software
-          development concepts. However, my current interest lies in frontend
-          development.
+          C, C++, C#, SQL, PHP, WordPress and even hardware-oriented VHDL,
+          laying a strong foundation for understanding programming principles
+          and basic software development concepts. However, my current interest
+          lies in <b> frontend development.</b>
         </p>
       </div>
     </div>

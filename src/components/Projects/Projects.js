@@ -48,7 +48,7 @@ export default function Projects() {
         <div>
           <ul>
             <li className="txt">
-              Internship at{" "}
+              Internship as a Frontend developer at{" "}
               <a href="https://moonstruck.io/" rel="noreferrer" target="_blank">
                 MoonStruck{" "}
               </a>
@@ -64,7 +64,7 @@ export default function Projects() {
               </a>
             </li>
             <li className="txt">
-              Teaching at{" "}
+              Teaching Web design at{" "}
               <a
                 href="https://centarnit.com/en/"
                 rel="noreferrer"
